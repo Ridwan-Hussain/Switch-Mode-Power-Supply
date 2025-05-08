@@ -153,7 +153,9 @@ The screenshots of the waveforms were taken on a MSO-X 2012A oscilloscope.
 	 - The final cap values on the buck circuit are: 10pF, 10uF, and 47uF.
   	 - This is what the final output looks like for the buck converter circuit @ 35kHz and 50% duty cycle (green is buck converter, yellow is flyout transformer).
 ![04-25_test8_buck_new_caps_zoomed_out](Images/04-25_test8_buck_new_caps_zoomed_out.png)
-
+11. Next the buck PWM was swept across to see map the duty cycle value to the buck converter output.
+         - Note: There wasn't a chance to sweep the buck converter output without buzzing from the flyback converter. This buzzing was determined to come from the flyback converter because when the buck converter was tested in isolation, there was no buzzing and the rippling was satisfactory.
+         - ![buck_lv_3p200ms](Images/buck_lv_3p200ms.png)
 
 ## Channel A Current Sense & OVP
 1. Tested the current sense & OVP circuit on a bare board. (She Died)
