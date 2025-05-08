@@ -156,8 +156,6 @@ The screenshots of the waveforms were taken on a MSO-X 2012A oscilloscope.
 11. Next the buck PWM was swept across to see map the duty cycle value to the buck converter output.
          - Note: There wasn't a chance to sweep the buck converter output without buzzing from the flyback converter. This buzzing was determined to come from the flyback converter because when the buck converter was tested in isolation, there was no buzzing and the rippling was satisfactory.
          - ![buck_lv_3p200ms](Images/buck_lv_3p200ms.png)
-12. Aside: This is what the rippling of the buck converter looked like when 12V was injected into the board on a none working board with the same fixed input parameters (50% duty cycle 35kHz switching frequency).
-    ![buck_35khz_50duty](Images/buck_35khz_50duty.png)
 
 ## Channel A Current Sense & OVP
 1. Tested the current sense & OVP circuit on a bare board. (She Died)
