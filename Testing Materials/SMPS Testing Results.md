@@ -114,7 +114,8 @@ The screenshots of the waveforms were taken on a MSO-X 2012A oscilloscope.
    - A frequency of 42kHz was finalized for the transformer after multiple tests were ran. The available duty cycles were also set to 10%-40% which translates to `FLY_OUT_A` voltages of 3.35V-18.78V. The minimum time delay between stepping up the duty cycle was determined to be 1% per 0.1s in the code, or 1% per 0.18s after measured on the oscilloscope.
    - The graph below displays a snapshot of the flyout transformer output (yellow).
 	![04-25_test7_flyout_new_caps_zoomed_out](Images/04-25_test7_flyout_new_caps_zoomed_out.png)
-  
+6. The test below is running the Channel_A_Transformer2.cpp script, which sweeps the duty cycle from 102 to 412 at a rate of 10 bits per 100ms at 42kHz frequency.
+   - ![flyouta_pwm_sweep18](Images/flyouta_pwm_sweep18.png)
 
 ## Channel A HV/LV 
 1. Tested the HV & LV relays + buck converter on a bare board.
