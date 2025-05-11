@@ -1,13 +1,13 @@
-// MCU Testing Script - Channel A Transformers
-// Channel_A_Transformer1.cpp
+// MCU Testing Script - Channel B Transformers
+// Channel_B_Transformer1.cpp
 // Switch Mode Power Supply - Senior Projects
 // Azra Rangwala, Ilona Lameka, Ridwan Hussain
 
 #include <Arduino.h>
 #include <LiquidCrystal_I2C.h>
 
-const int A_BUTT = 23; // MCU_A_GPIO23
-const int DRIVE = 4; // MCU_A_GPIO4
+const int A_BUTT = 23; // MCU_B_GPIO23
+const int DRIVE = 12; // MCU_B_GPIO12
 int lcdColumns = 16;
 int lcdRows = 2;
 LiquidCrystal_I2C lcd(0x27, lcdColumns, lcdRows); 

@@ -1,15 +1,15 @@
-// MCU Testing Script - Channel A Feedback
-// Channel_A_Feedback.cpp
+// MCU Testing Script - Channel C Feedback
+// Channel_C_Feedback.cpp
 // Switch Mode Power Supply - Senior Projects
 // Azra Rangwala, Ilona Lameka, Ridwan Hussain
 
 #include <Arduino.h>
 #include <LiquidCrystal_I2C.h>
 
-const int A_BUTT = 23; // MCU_A_GPIO23
-const int HV_LV_OUT = 18; // MCU_A_GPIO18
-const int OUT_ENABLE = 26; // MCU_A_GPIO26
-const int VOL_SENSE = 35; // MCU_A_ADC1_C7
+const int A_BUTT = 17; // MCU_B_GPIO23
+
+const int OUT_ENABLE = 13; // MCU_B_GPIO26 //set to 0
+const int VOL_SENSE = 32; // MCU_B_ADC1_C7
 const int DRIVE = 4; // MCU_A_GPIO4
 const int BUCK = 25; // MCU_A_GPIO25
 

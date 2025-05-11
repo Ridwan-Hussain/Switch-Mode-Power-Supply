@@ -1,5 +1,5 @@
 // MCU Testing Script - Channel A HV/LV
-// Channel_A_LV_Buck1.cpp
+// Channel_A_LV_Buck2.cpp
 // Switch Mode Power Supply - Senior Projects
 // Azra Rangwala, Ilona Lameka, Ridwan Hussain
 

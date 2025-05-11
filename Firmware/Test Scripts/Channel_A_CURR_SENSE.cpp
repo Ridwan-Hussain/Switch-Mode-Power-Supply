@@ -35,7 +35,7 @@ void setup()
 
   pinMode(A_BUTT, INPUT);
 
-  ledcSetup(0, 75000, 10); 
+  ledcSetup(0, 35000, 10); 
   ledcAttachPin(BUCK, 0);
 
   ledcSetup(1, 42000, 10);
@@ -88,11 +88,11 @@ void subway(void *pvParameters)
       digitalWrite(HV_LV_OUT, 0);
       delay(15000);
 
-      for(int k = 0; (k <= 81 && digitalRead(A_BUTT)); k++)
+      for(int k = 0; (k <= 41 && digitalRead(A_BUTT)); k++)
       {
         ledcWrite(0, buck_PWM);
-        buck_PWM += 10; //Math to increase by voltage
-        delay(7000);
+        buck_PWM += 20; //Math to increase by voltage
+        delay(3000);
       }
       prevState = 1;
     }
